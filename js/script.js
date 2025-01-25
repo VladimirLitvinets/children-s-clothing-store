@@ -1,5 +1,5 @@
 // --------------------------------------HERO-----------------------------------------
-const images = document.querySelectorAll(".hero__img");
+const images = document.querySelectorAll(".hero__slider-img");
 const sliderLine = document.querySelector(".hero__slider-line");
 const buttonNext = document.querySelector(".button-next");
 const buttonPrev = document.querySelector(".button-prev");

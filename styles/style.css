@@ -329,3 +329,50 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 400;
 }
+
+.category__slider-block {
+	position: relative;
+	overflow: hidden;
+	max-width: 97%;
+	margin: 20px auto;
+}
+
+.category__slider-line {
+
+	display: inline-flex;
+	gap: 25px;
+}
+
+.category__slider-item {
+	height: 300px;
+	width: 350px;
+}
+
+.category__slider-img {
+	height: 100%;
+	width: 100%;
+}
+
+.category__slider-buttons {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 46%;
+	width: 100%;
+}
+
+.category__slider-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 5px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+}
+
+.category__button-prev {
+	transform: rotate(180deg);
+}
