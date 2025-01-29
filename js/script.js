@@ -56,3 +56,5 @@ buttonPrev.addEventListener("click", () => {
 buttonNext.addEventListener("click", () => {
   buttonPrev.classList.remove("active");
 });
+
+// -------------------------------------------CATEGORY--------------------------------------------------

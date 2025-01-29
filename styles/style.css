@@ -260,7 +260,6 @@ h1 {
 /* ------------------------------------------------HERO--------------------------------------------------- */
 
 .hero {
-	margin-bottom: 60px;
 	position: relative;
 }
 
@@ -322,9 +321,15 @@ h1 {
 
 /* -------------------------------------------CATEGORY------------------------------------------------- */
 
+.category {
+	background-color: #f6f6f6;
+	padding-bottom: 90px;
+}
+
 .category__title {
 	text-align: center;
-	margin-bottom: 30px;
+	padding-top: 80px;
+	margin-bottom: 40px;
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -338,19 +343,38 @@ h1 {
 }
 
 .category__slider-line {
-
 	display: inline-flex;
 	gap: 25px;
+	padding: 0;
 }
 
 .category__slider-item {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 300px;
+	width: 350px;
+	position: relative;
+	list-style: none;
+}
+
+.category__slider-img {
 	height: 300px;
 	width: 350px;
 }
 
-.category__slider-img {
-	height: 100%;
-	width: 100%;
+.category__slider-link {
+	position: absolute;
+	background-color: #fff;
+	padding: 15px 20px;
+	min-width: 50%;
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--primary-color);
+	text-decoration: none;
 }
 
 .category__slider-buttons {
